@@ -1,0 +1,19 @@
+{
+    "name": "recipeapi",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "express": "^4.16.4"
+    },
+    "scripts": {
+        "dev": "node_modules/.bin/nodemon -e js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Ayja Weems",
+    "license": "ISC",
+    "devDependencies": {
+        "morgan": "^1.9.1",
+        "nodemon": "^1.18.10"
+    }
+}
