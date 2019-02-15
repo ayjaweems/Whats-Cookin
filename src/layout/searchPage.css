@@ -1,0 +1,25 @@
+#search {
+    box-sizing: border-box;
+    margin: 10px 20px;
+    align-content: center;
+}
+
+#submit {
+    height: 37px;
+    font-size: 23px;
+    align-content: center;
+    border: 1px solid grey;
+    border-left: none;
+}
+
+#ingredients {
+    padding: 6px;
+    border: none;
+    font-size: 20px;
+    border: 1px solid grey;
+    width: 1200px;
+}
+
+.break {
+    width: 1000px;
+}

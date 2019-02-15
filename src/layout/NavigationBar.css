@@ -1,0 +1,51 @@
+.nav-bar {
+    max-height: 60px;
+    background-color:#73a868;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul#list {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-grow: 1;
+}
+
+ul#list li {
+    display: inline-block;
+    align-content: center;
+    padding: 14px 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    flex-grow: 1;
+}
+
+ul#list li a {
+    display: flex; /*Needs to be a block or inline-block, either one is fine i think for this.*/
+    color: white;
+    text-decoration: none;
+    transition: all .2s ease-in-out; /*used on incoming transforms*/
+}
+
+ul#list li a:hover {
+    transform: scale(1.2); /*The actual transform*/
+    text-decoration: underline;
+    text-shadow: 1px 2px 6px rgb(88, 88, 88);
+}
+
+.nav-icon {
+    /* align-self: left; */
+    width: 30px;
+    height: 30px;
+    margin: 0 8px;
+}
+
+.trending-icon {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
