@@ -30,4 +30,4 @@ Getting the API started:
   3. Run npm run dev in your terminal to start the API
 
 Getting the Recipe App started:
-  1. Run npm start in your terminal to get the app running
+  1. Run `npm start` in your terminal to get the app running
